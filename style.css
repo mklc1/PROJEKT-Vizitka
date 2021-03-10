@@ -2,9 +2,92 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    background-color: #b2bec3;
+    max-width: 550px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    right: 75px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    
+}
+
+.fb {
+    background-color: #3b5998;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.twitter a:hover {
+    background-color: #0b7bc1;
+    margin: 20px;
+    padding: 15px;
+
+}
+
+.fb a:hover {
+    background-color: #2b406e;
+    margin: 20px;
+    padding: 15px;
+}
+
 /*
 BARVY:
-šedá na pozadí stránky:		 #b2bec3
+šedá na pozadí stránky:		 
 červená na hlavní nadpis:  #d63031
 
 tlačítko Twitter:					 #1da1f2
